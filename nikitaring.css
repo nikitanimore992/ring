@@ -470,6 +470,7 @@ input[type=text], select {
     .header-ring-contact{
     
         height: 15vh;
+
     
     }
     .map{
@@ -488,6 +489,12 @@ input[type=text], select {
         padding: 20px 100px;
         color: rgb(80, 75, 75);
     }
+    .dis{
+        display: none;
+       
+       
+    }
+    
     
 }
 
