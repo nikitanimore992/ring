@@ -1,0 +1,495 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+/* -------------------------------------collection page-------------------------- */
+
+
+
+/* --------------navaar--------------------------------------- */
+nav {
+    display: flex;
+    padding: 10px 60px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(128, 0, 21, 0.795);
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+
+}
+
+/* -------------------------navbar----------------------------------------------- */
+.header-nav {
+    flex: 1;
+    text-align: center;
+
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-nav ul li {
+    list-style: none;
+    padding: 10px 35px;
+}
+
+.header-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+/* --------------------------hero----------------------------------------- */
+.hero-ring {
+    background-image: url('img/back1.png');
+    height: 65vh;
+    border: 1px solid black;
+    background-size: cover;
+
+}
+
+.header-nav1 {
+    background: rgb(228, 232, 234);
+}
+
+.header-nav1 p {
+    text-align: center;
+    color: rgb(167, 179, 189);
+}
+
+/* ------------------------------- bottom  small navbar------------------------------------------ */
+.collection-ring {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.collection-ring h1 {
+    font-size: 40px;
+    color: #030303;
+}
+
+.collection-ring p {
+    font-size: 18px;
+    /* margin-top: 20px; */
+    padding: 20px 350px;
+    color: rgb(80, 75, 75);
+}
+
+/* -----------------------media 1024------------------------------- */
+
+@media(max-width:1024px) {
+
+
+
+    .header-nav ul li {
+        padding: 04px 18px;
+    }
+
+    .header-nav ul li a {
+        font-size: 15px;
+    }
+
+    .hero-ring {
+        height: 30vh;
+
+
+    }
+
+    .collection-ring {
+        margin-top: 60px;
+    }
+
+    .collection-ring h1 {
+        font-size: 35px;
+    }
+
+    .collection-ring p {
+        font-size: 16px;
+        padding: 18px 55px;
+
+    }
+
+
+}
+
+/* -------------------------media 740---------------------------- */
+@media(max-width:740px) {
+
+    .header-nav ul {
+        display: flex;
+    }
+
+    .header-nav ul li {
+        padding: 04px 10px;
+    }
+
+    .header-nav ul li a {
+        font-size: 10px;
+    }
+
+    .hero-ring {
+        height: 20vh;
+
+    }
+
+    .header-nav1 ul {
+        margin-left: 150px;
+    }
+
+    .collection-ring {
+        margin-top: 60px;
+    }
+
+    .collection-ring h1 {
+        font-size: 30px;
+    }
+
+    .collection-ring p {
+        font-size: 15px;
+        padding: 18px 55px;
+
+    }
+
+}
+
+@media(max-width:740px) {
+    .hero-ring {
+        height: 25vh;
+
+    }
+
+
+}
+
+/* ----------------------  img section ring ------------------------------ */
+.facilites {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.facilites-col {
+    flex-basis: 31%;
+    /* border-radius: 10px; */
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    width: 350px ;
+    /* border-radius: 10px; */
+}
+
+@media(max-width:740px){
+    .row{
+        display: block;
+    }
+    img{
+        width: 280px;
+    }
+}
+
+/* ---------------------------- footer--------------------------------- */
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    background: rgba(128, 0, 21, 0.795);
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #fefdfe;
+}
+
+.footer p {
+    color: rgba(19, 9, 75, 0.721);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px 180px;
+    color: white;
+
+}
+
+.icon .fa-brands {
+    color: #f9f7f7;
+    margin: 0 14px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-regular {
+    color: #f8f4f3;
+}
+@media(max-width:740px){
+    
+    
+    .footer p {
+        padding: 10px;
+        color: #fefdfe;
+    }
+    
+    .fa-regular {
+        color: #f8f4f3;
+    }
+
+}
+
+
+/* ------------------------------home us page------------------------------ */
+.hero-ringindex{
+    background-image: url('img/back2.png');
+    height: 65vh;
+    border: 1px solid black;
+    background-size: cover;
+
+}
+.header-nav11{
+    background: rgb(204, 205, 188);
+}
+.header-nav11 p{
+    text-align: center;
+    color: rgb(88, 135, 173);
+}
+/* -------------------------img section---------------------------------- */
+.welcome-img{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#img2 {
+    display: flex;
+    padding: 60px 0px 20px 0px;
+    justify-content: center;
+}
+
+#img3{
+    flex-basis: 31%;
+    /* border-radius: 10px; */
+    /* margin-bottom: 5%; */
+    /* text-align: left; */
+    /* padding: 05px; */
+   
+} 
+
+.oip{
+    height: 280px;
+}
+.oip1{
+    height: 320px;
+}
+#img3:hover{
+    scale: 1.1;
+    transition: scale 1s;
+
+}
+/* -------------------------------- section change------------------------------------- */
+.logo-row{
+    display: flex;
+    margin-top: 50px;
+}
+.logo-img{
+    justify-content: center;
+    margin: auto;
+}
+.fa-solid{
+    font-size: 60px;
+    color: rgba(128, 0, 21, 0.795);
+    
+}
+@media(max-width:740px){
+    .hero-ringindex{
+
+        height: 25vh;
+        
+    }
+    #img2 {
+        display: block;
+         }
+         .fa-solid{
+            font-size: 40px;
+         }
+         .logo-img{
+        
+            margin-left: 10px;
+        }
+        
+}
+/* ------------------------------About  us page------------------------------ */
+.hero-ring-about{
+    background-image: url('img/back3.png');
+    height: 65vh;
+    border: 1px solid black;
+    background-size: cover;
+
+}
+.header-nav2{
+    background: rgb(126, 187, 160);
+}
+.header-nav2 p{
+    text-align: center;
+    color: rgb(74, 121, 160);
+}
+.content-img{
+    display: flex;
+    margin-top: 50px;
+}
+.img-cont{
+    margin: auto;
+    justify-content: center;
+    margin-left: 200px;
+}
+.img-cont1{
+    margin: auto;
+    margin-left: -100px;
+   }
+@media(max-width:740px){
+    .hero-ring-about{
+        background-image: url('img/back3.png');
+        height: 20vh;
+    }  
+    .content-img{
+        display: block;
+    }
+    .img-cont{
+        margin-left: 20px;
+    }
+    .img-cont1{
+        margin: auto;
+        padding: 0 30px ;
+       }  
+
+}
+/* ---------------------------------------contack page ---------------------------------------------- */
+.header-ring-contact{
+    background-image: url('img/Screenshot\ 2024-01-02\ 125915.png');
+    height: 55vh;
+    border: 1px solid black;
+    background-size: cover;
+
+}
+.header-nav3{
+    background: rgb(52, 57, 55);
+}
+.header-nav3 p{
+    text-align: center;
+    color: rgba(2, 10, 16, 0.981);
+}
+.map{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.address{
+    margin-top: 100px;
+    text-align: center;
+}
+.address h1{
+    font-size: 40px;
+    color: #030303;
+}
+
+
+.address p {
+    font-size: 18px;
+    /* margin-top: 20px; */
+    padding: 20px 350px;
+    color: rgb(80, 75, 75);
+}
+.dis{
+    display: flex;
+    width: 50%;
+    padding: 12px 30px;
+    margin-left: 330px;
+   
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=tele]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(128, 0, 21, 0.795);
+  }
+  
+   .from {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+@media(max-width:740px){
+    .header-ring-contact{
+    
+        height: 15vh;
+
+    
+    }
+    .map{
+        display: none;
+    }
+    .address{
+        margin-top: 50px;
+    }
+    .address h1{
+        font-size: 30px;
+        color: #030303;
+    }
+    .address p {
+        font-size: 15px;
+        /* margin-top: 20px; */
+        padding: 20px 100px;
+        color: rgb(80, 75, 75);
+    }
+    
+}
+
+
